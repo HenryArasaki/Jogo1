@@ -15,7 +15,7 @@ function startGame() {
     document.getElementById("btnStart").style.display="none"
     gameRunning = true;
     player = document.getElementById("personagem")
-    setTimeout(acabouTempo,30000)
+    setTimeout(acabouTempo,10000)
     pontosText.innerText = pontos
 }
 
